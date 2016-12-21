@@ -1,0 +1,1 @@
+Cabanias = new Meteor.Collection('cabania');

@@ -1,0 +1,5 @@
+Meteor.methods({
+	insertCabania : function(obj){ Cabania.insert(obj);},
+	updateCabania : function(id,obj){Cabania.update({_id:id},{$set:obj})}
+	//,	deleteCabania : function(){ return false}
+});

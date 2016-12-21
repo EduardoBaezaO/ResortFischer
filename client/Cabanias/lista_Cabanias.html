@@ -1,0 +1,11 @@
+<template name="ListaCabanias">
+	
+	{{> NuevaCabania }}
+
+	<p>Existen {{ cantidad }} cabañas</p>
+
+	{{#each cabanias}}
+		<p>Cabeania : {{ nombre }} {{ descripcion }}</p>
+	{{/each}}
+
+</template>
